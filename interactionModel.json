@@ -1,0 +1,194 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mi asistente",
+            "intents": [
+                {
+                    "name": "GeminiQueryIntent",
+                    "slots": [
+                        {
+                            "name": "query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "samples": [
+                        "dime {query}",
+                        "busca {query}",
+                        "explícame {query}",
+                        "cuéntame {query}",
+                        "háblame {query}",
+                        "resúmeme {query}",
+                        "tradúceme {query}",
+                        "compara {query}",
+                        "recomiéndame {query}",
+                        "ayúdame {query}",
+                        "recuérdame {query}",
+                        "describe {query}",
+                        "define {query}",
+                        "analiza {query}",
+                        "calcula {query}",
+                        "averigua {query}",
+                        "dame {query}",
+                        "muéstrame {query}",
+                        "enséñame {query}",
+                        "aclara {query}",
+                        "aclárame {query}",
+                        "amplía {query}",
+                        "profundiza {query}",
+                        "desarrolla {query}",
+                        "verifica {query}",
+                        "comprueba {query}",
+                        "investiga {query}",
+                        "escucha {query}",
+                        "oye {query}",
+                        "mira {query}",
+                        "venga {query}",
+                        "fíjate {query}",
+                        "a ver {query}",
+                        "por cierto {query}",
+                        "una cosa {query}",
+                        "una duda {query}",
+                        "bueno {query}",
+                        "entonces {query}",
+                        "además {query}",
+                        "también {query}",
+                        "qué {query}",
+                        "quién {query}",
+                        "quiénes {query}",
+                        "cuándo {query}",
+                        "cómo {query}",
+                        "dónde {query}",
+                        "cuánto {query}",
+                        "cuánta {query}",
+                        "cuántos {query}",
+                        "cuál {query}",
+                        "cuáles {query}",
+                        "por qué {query}",
+                        "para qué {query}",
+                        "necesito {query}",
+                        "quiero {query}",
+                        "quisiera {query}",
+                        "quería {query}",
+                        "me puedes {query}",
+                        "puedes {query}",
+                        "podrías {query}",
+                        "me podrías {query}",
+                        "me ayudas {query}",
+                        "me cuentas {query}",
+                        "me dices {query}",
+                        "me explicas {query}",
+                        "me resumes {query}",
+                        "me recomiendas {query}",
+                        "tengo {query}",
+                        "imagina {query}",
+                        "supón {query}",
+                        "leí {query}",
+                        "escuché {query}",
+                        "vi {query}",
+                        "dicen {query}",
+                        "parece {query}",
+                        "hay {query}",
+                        "existe {query}",
+                        "sirve {query}",
+                        "funciona {query}",
+                        "pasó {query}",
+                        "pues {query}",
+                        "bro {query}",
+                        "hola {query}",
+                        "buenas {query}",
+                        "buenos {query}",
+                        "alexa {query}",
+                        "guapa {query}",
+                        "ocurrió {query}",
+                        "fue {query}",
+                        "sabes {query}",
+                        "hoy {query}",
+                        "ayer {query}",
+                        "mañana {query}",
+                        "actualmente {query}",
+                        "recientemente {query}",
+                        "últimamente {query}",
+                        "antes {query}",
+                        "después {query}",
+                        "y {query}",
+                        "te pregunto {query}",
+                        "te consulto {query}",
+                        "qué sabes {query}",
+                        "qué pasa {query}",
+                        "qué hay {query}",
+                        "qué tal {query}",
+                        "qué opinas {query}",
+                        "qué marcas {query}",
+                        "qué tipo {query}",
+                        "qué diferencia {query}"
+                    ]
+                },
+                {
+                    "name": "SiIntent",
+                    "slots": [],
+                    "samples": [
+                        "si",
+                        "si por favor",
+                        "claro",
+                        "claro que si",
+                        "de acuerdo",
+                        "vale",
+                        "por supuesto",
+                        "afirmativo",
+                        "eso es",
+                        "correcto"
+                    ]
+                },
+                {
+                    "name": "NoIntent",
+                    "slots": [],
+                    "samples": [
+                        "no",
+                        "no gracias",
+                        "no por ahora",
+                        "ahora no",
+                        "negativo"
+                    ]
+                },
+                {
+                    "name": "NadaMasIntent",
+                    "slots": [],
+                    "samples": [
+                        "nada mas",
+                        "nada",
+                        "ya esta",
+                        "es todo",
+                        "no quiero nada mas",
+                        "no necesito nada mas",
+                        "hasta luego",
+                        "adios",
+                        "salir",
+                        "terminar",
+                        "fin"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                }
+            ],
+            "types": []
+        }
+    }
+}
